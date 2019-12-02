@@ -7,15 +7,26 @@ module.exports = withCss(withScss({
   pageExtensions: ['jsx', 'js'],
 
   // webpack 相关配置
+<<<<<<< HEAD
+  webpack(config) {
+=======
   webpack(config, options) {
+>>>>>>> dev
     // 配置路径别名
     config.resolve.alias = {
       ...config.resolve.alias,
       '@': path.resolve(__dirname),
       '@component': path.resolve(__dirname, 'component'),
       '@pages': path.resolve(__dirname, 'page'),
+<<<<<<< HEAD
+      '@utils': path.resolve(__dirname, 'utils')
+    };
+    return config;
+  }
+=======
       '@utils': path.resolve(__dirname, 'utils'),
     };
     return config;
   },
+>>>>>>> dev
 }));
