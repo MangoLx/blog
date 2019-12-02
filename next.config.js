@@ -12,7 +12,7 @@ module.exports = withCss(withScss({
     config.resolve.alias = {
       ...config.resolve.alias,
       '@': path.resolve(__dirname),
-      '@component': path.resolve(__dirname, 'component'),
+      '@components': path.resolve(__dirname, 'components'),
       '@pages': path.resolve(__dirname, 'page'),
       '@utils': path.resolve(__dirname, 'utils')
     };
