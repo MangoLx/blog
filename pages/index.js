@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import Nav from '../components/nav'
+import Nav from '../components/nav';
+
+import './index.scss';
 
 const Home = () => (
   <div>
