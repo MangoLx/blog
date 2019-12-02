@@ -1,5 +1,22 @@
-div {
-  p {
-    color: #f00;
+.list {
+  &-header {
+    padding: .2rem;
+  }
+  &-title{
+    font-size: 1.3rem;
+    color: #1e90ff;
+    padding: 0 .5rem;
+  }
+  &-context{
+    color:#777;
+    padding: .5rem;
+  }
+  &-icon{
+    padding: .5rem 0;
+    color:#aaa;
+    & > span {
+      display: inline-block;
+      padding: 0 10px;
+    }
   }
 }
