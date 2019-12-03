@@ -1,9 +1,12 @@
 .header {
   background-color: #fff;
-  padding: .4rem;
+  padding: 0 .4rem .4rem;
   overflow: hidden;
   height: 2.8rem;
   border-bottom:1px solid #ccc;
+  &-left {
+    padding-top: .2rem;
+  }
   &-logo {
     color:#1e90ff;
     font-size: 1.4rem;

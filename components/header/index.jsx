@@ -7,7 +7,7 @@ export default function Header () {
   return (
     <div className="header">
       <Row type="flex" justify="center">
-        <Col xs={24} sm={24} md={10}>
+        <Col className="header-left" xs={24} sm={24} md={10}>
           <span className="header-logo">Mango</span>
           <span className="header-text">我自己的博客</span>
         </Col>
